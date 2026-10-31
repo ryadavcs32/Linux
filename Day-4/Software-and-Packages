@@ -1,0 +1,6 @@
+# Software and Packages
+
+Software is commonly installed through a distribution's package manager.
+Package manager commands vary by distro. For example, Debian/Ubuntu use
+`apt`, while Fedora uses `dnf`. Consult your distribution's documentation
+before installing, updating, or removing packages.
