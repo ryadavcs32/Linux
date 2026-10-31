@@ -1,0 +1,12 @@
+# Processes and System Information
+
+| Command | Purpose |
+| --- | --- |
+| `ps` | Show processes associated with the current session |
+| `top` | Monitor running processes and system activity |
+| `kill PID` | Ask a process to stop using its process ID |
+| `uname -a` | Show kernel and system information |
+| `df -h` | Show filesystem disk space |
+| `free -h` | Show memory usage |
+| `whoami` | Print the current username |
+| `id` | Show user and group IDs |
