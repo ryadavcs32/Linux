@@ -1,0 +1,27 @@
+# Navigating Files and Directories
+
+Linux paths use `/` as the separator. The root directory is `/`. A path is
+**absolute** when it starts with `/`; otherwise, it is **relative** to the
+current directory.
+
+| Command | Purpose |
+| --- | --- |
+| `pwd` | Print the current directory |
+| `ls` | List directory contents |
+| `ls -la` | Include hidden files and detailed information |
+| `cd /path/to/dir` | Change to a directory |
+| `cd ..` | Move to the parent directory |
+| `cd ~` | Move to your home directory |
+
+## Common filesystem locations
+
+| Path | Purpose |
+| --- | --- |
+| `/` | Top of the filesystem |
+| `/home` | Users' home directories |
+| `/root` | Root user's home directory |
+| `/etc` | System-wide configuration |
+| `/var` | Frequently changing data, such as logs |
+| `/tmp` | Temporary files |
+| `/usr` | Many user applications and shared files |
+| `/bin` | Essential user commands (often linked to `/usr/bin`) |
