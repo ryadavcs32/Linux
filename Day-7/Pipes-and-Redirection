@@ -1,0 +1,18 @@
+# Pipes and Redirection
+
+The pipe operator `|` sends one command's output to another command:
+
+```bash
+ls -la | less
+```
+
+Redirection writes output to a file. `>` replaces the file contents, while
+`>>` appends:
+
+```bash
+echo "Hello, Linux" > greeting.txt
+echo "Another line" >> greeting.txt
+```
+
+Use `command1 && command2` to run the second command only if the first
+succeeds.
