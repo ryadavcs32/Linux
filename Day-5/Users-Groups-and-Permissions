@@ -1,0 +1,16 @@
+# Users, Groups, and Permissions
+
+Every file has an owner, a group, and permissions for the owner, group, and
+other users. The permission letters are `r` (read), `w` (write), and `x`
+(execute).
+
+Run `ls -l` to view permissions, for example:
+
+```text
+-rw-r--r-- 1 sam staff 120 Oct 31  notes.txt
+```
+
+Here, the owner can read and write; the group and others can read. Use
+`chmod` to change permissions and `chown` to change ownership. Some
+administrative operations require `sudo`, which runs a command with elevated
+privileges; use it only when needed and only with commands you understand.
