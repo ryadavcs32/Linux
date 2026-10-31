@@ -1,0 +1,23 @@
+# Good Habits
+
+- Use `man <command>` or `<command> --help` before using an unfamiliar tool.
+- Prefer working as a regular user; use `sudo` only for tasks that need it.
+- Verify the current directory with `pwd` before file operations.
+- Quote paths or arguments that contain spaces so the shell treats the text
+  inside the quotes as one argument. Without quotes, the shell splits at spaces.
+
+  For example, `touch my notes.txt` treats `my` and `notes.txt` as two
+  filenames, while this creates one file named `my notes.txt`:
+
+  ```bash
+  touch "my notes.txt"
+  ```
+
+  Use the same quoting when referring to that file, for example:
+
+  ```bash
+  cat "my notes.txt"
+  ```
+
+- Treat command examples as templates and replace sample names and paths
+  with the ones appropriate to your system.
