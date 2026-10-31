@@ -1,0 +1,22 @@
+# Linux Fundamentals
+
+## What is Linux?
+
+Linux is an open-source operating system kernel. A Linux distribution (or
+"distro") combines the kernel with system utilities, software, and a package
+manager. Examples include Ubuntu, Debian, Fedora, and Arch Linux.
+
+The **shell** is a command-line interface for interacting with the system.
+Bash is a commonly used shell. Commands are programs that you run from the
+shell.
+
+## Basic command structure
+
+Most commands follow this pattern:
+
+```text
+command [options] [arguments]
+```
+
+For example, `ls -l /home` lists the contents of `/home` in a detailed format.
+Use `man command` or `command --help` to learn about a command.
