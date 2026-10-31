@@ -1,0 +1,18 @@
+# Working with Files
+
+| Command | Purpose |
+| --- | --- |
+| `touch notes.txt` | Create an empty file or update its timestamp |
+| `mkdir projects` | Create a directory |
+| `cp source.txt copy.txt` | Copy a file |
+| `mv old.txt new.txt` | Move or rename a file |
+| `cat notes.txt` | Print a file's contents |
+| `less notes.txt` | Read a file one screen at a time |
+| `head -n 10 notes.txt` | Print the first 10 lines |
+| `tail -n 10 notes.txt` | Print the last 10 lines |
+| `grep "text" notes.txt` | Find matching text in a file |
+| `find . -name "*.txt"` | Find matching files below the current directory |
+
+Be careful with commands that delete or overwrite data. In particular,
+`rm` normally deletes files without moving them to a recycle bin. Check paths
+and arguments before running it.
